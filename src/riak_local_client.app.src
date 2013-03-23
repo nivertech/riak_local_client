@@ -1,0 +1,17 @@
+%% -*- tab-width: 4;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+%% ex: ts=4 sw=4 et
+
+{application, riak_local_client,
+ [
+  {description, "Riak Erlang local client"},
+  {vsn, "1.3.0"},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl,
+                  crypto
+                 ]},
+  {registered, []},
+  %{mod, {riak_local_client_app, []}},
+  {env, []}
+ ]}.
